@@ -1,0 +1,4 @@
+1. Organizador conecta wallet.
+2. Crea evento y define recompensas.
+3. Artista se inscribe y recibe aprobación.
+4. Contrato emite NFT Soulbound y transfiere USDT.
