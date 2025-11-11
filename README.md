@@ -1,4 +1,11 @@
 # 🌍 CulturaGO – Pasaporte Cultural Web3
+---
+
+## 🚀 Elevator Pitch
+
+A Web3 platform that empowers artists and cultural organizers with digital identity, cultural reputation, and verifiable impact using the Polkadot SDK and cross-chain interoperability.
+
+---
 
 > **Tracks:**  
 > 🧩 Track 2 – *User-Centric Apps (Polkadot SDK)*  
