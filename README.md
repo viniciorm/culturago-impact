@@ -1,114 +1,43 @@
-# 🌍 CulturaGO Impact
+# 🌍 CulturaGO – Pasaporte Cultural Web3
 
-> “La cultura también puede ser interoperable y recompensada.”
-
-**CulturaGO Impact** es una plataforma Web3 creada sobre **Avalanche** que permite a **artistas, festivales y escuelas culturales**
-emitir **Pasaportes Culturales NFT Soulbound** y otorgar **recompensas en USDT** utilizando **Tether WDK**.  
-El objetivo es reconocer la participación cultural con trazabilidad, seguridad y valor real en blockchain.
-
----
-
-## 🏆 Hackathon Details
-
-🎯 **Evento:** Avalanche Build Hackathon 2025  
-🧩 **Track:** Impacto Social & Comunidad + NFTs & Tether WDK  
-🏗️ **Proyecto:** CulturaGO Impact  
-💡 **País:** Chile 🇨🇱  
-🧑‍💻 **Repositorio:** [github.com/viniciorm/culturago-impact](https://github.com/viniciorm/culturago-impact)
+> **Tracks:**  
+> 🧩 Track 2 – *User-Centric Apps (Polkadot SDK)*  
+> 🎨 Track 3 – *Polkadot Tinkerers*  
+>
+> **Repositorio público para el Polkadot Builder Party / DOT Americas 2025**
 
 ---
 
-## 🚀 Descripción del Proyecto
+## 🧭 Project Overview and Objectives
 
-**CulturaGO Impact** extiende el concepto original de *CulturaGO* para crear un ecosistema cultural interoperable sobre Avalanche.
+**CulturaGO** es una aplicación Web3 centrada en el usuario que **certifica identidad, participación y reputación cultural** mediante **NFTs Soulbound** interoperables con el ecosistema **Polkadot**.
 
-- Cada **artista o participante** recibe un **NFT Soulbound** que certifica su trayectoria.
-- Los **organizadores culturales** pueden gestionar eventos, inscripciones y emitir recompensas en **USDT**.
-- Los **festivales, escuelas y comunidades culturales** validan la participación y reputación de manera pública y descentralizada.
+La plataforma permite a **artistas**, **organizadores culturales**, **staff**, **proveedores** y **público** construir una reputación cultural verificable, donde cada evento y contribución queda registrada en blockchain.
 
-El resultado:  
-una **infraestructura de confianza cultural** con impacto social real.
-
----
-
-## 🔧 Stack Tecnológico
-
-| Componente | Tecnología | Descripción |
-|-------------|-------------|--------------|
-| **Blockchain** | Avalanche C-Chain (Fuji Testnet) | Red principal EVM-compatible, rápida y de bajo costo |
-| **Smart Contracts** | Solidity + Hardhat | Emisión de NFTs Soulbound + módulo de recompensas USDT |
-| **Frontend** | React + Vite + Ethers.js + Core Wallet SDK | Interfaz web para conexión y gestión de eventos |
-| **Pagos** | Tether WDK | Implementación de pagos y recompensas en USDT |
-| **Storage** | IPFS (Pinata) | Metadatos descentralizados de NFTs y eventos |
-| **Backend (opcional)** | Node.js + AvalancheJS | API de soporte para registros y panel de administración |
+### 🎯 Objetivos
+- Empoderar a los usuarios culturales con **identidad digital soberana**.  
+- Usar el **Polkadot SDK y JAM Runtime** para crear un entorno descentralizado que priorice la experiencia del usuario.  
+- Explorar interoperabilidad **Polkadot ↔ Avalanche** mediante **NFTs Soulbound + IPFS**.  
+- Visualizar la “reputación cultural” como una nueva métrica social on-chain.  
+- Probar integraciones reales con APIs y herramientas del **Polkadot Technology Stack**.
 
 ---
 
-## 🧩 Funcionalidades Principales
+## 💡 Core Concept
 
-### 👩‍🎤 Para Artistas
-- Registro mediante wallet (Core / MetaMask).  
-- Inscripción en eventos y talleres culturales.  
-- Recepción de NFTs Soulbound y recompensas en USDT.  
-- Panel con historial cultural y reputación.
+Cada participante (artista, staff, proveedor) recibe un **NFT Soulbound** que actúa como “pasaporte cultural”.  
+Estos NFTs son no transferibles, almacenan metadatos (evento, fecha, organizador) y son verificables tanto en **Avalanche Fuji** como en **Polkadot SDK Runtime**.
 
-### 🏫 Para Organizadores
-- Creación de eventos con capacidad y fechas.  
-- Aprobación o rechazo de inscripciones.  
-- Emisión de NFTs a participantes.  
-- Pagos automáticos vía Tether WDK.
-
-### 👥 Para Comunidad y Público
-- Consulta pública de artistas y eventos verificados.  
-- Compra de tickets Web3 (versión extendida).  
-- Verificación de logros y trayectoria cultural.
+El sistema también permite emitir recompensas simbólicas en **USDT (Tether WDK)** y visualizar datos culturales (eventos, participación, reputación).
 
 ---
 
-## 🧱 Estructura del Repositorio
-
-```
-/culturago-impact
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── /frontend
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Home.jsx
-│   │   │   ├── Eventos.jsx
-│   │   │   ├── Panel.jsx
-│   │   │   └── WalletConnect.jsx
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── vite.config.js
-│
-├── /contracts
-│   ├── SimpleNFT.sol
-│   ├── hardhat.config.js
-│   └── scripts/deploy.js
-│
-├── /docs
-│   ├── user_stories.md
-│   ├── market_study_danza_latam_v2.md
-│   ├── Pitch_CulturaGO_Guion.md
-│   └── desarrollo_blockchain_avalanche.md
-│
-└── /demo
-    ├── mock_contract.js
-    └── sample_demo_flow.txt
-```
-
----
-
-## ⚙️ Instrucciones de Ejecución
+## ⚙️ Instructions for Setup and Usage
 
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/viniciorm/culturago-impact.git
-cd culturago-impact/frontend
+git clone https://github.com/viniciorm/culturago-polkadot.git
+cd culturago-polkadot
 ```
 
 ### 2️⃣ Instalar dependencias
@@ -116,70 +45,105 @@ cd culturago-impact/frontend
 npm install
 ```
 
-### 3️⃣ Ejecutar la aplicación local
+### 3️⃣ Configurar entorno
+Crea un archivo `.env` con las siguientes variables:
+```bash
+VITE_POLKADOT_ENDPOINT=https://onpop.io/api
+VITE_AVALANCHE_RPC=https://api.avax-test.network/ext/bc/C/rpc
+VITE_IPFS_GATEWAY=https://ipfs.io/ipfs/
+```
+
+### 4️⃣ Ejecutar el entorno de desarrollo
 ```bash
 npm run dev
 ```
 
-### 4️⃣ Desplegar contrato (opcional)
-```bash
-cd ../contracts
-npx hardhat run scripts/deploy.js --network fuji
+### 5️⃣ Desplegar contrato NFT Soulbound
+Puedes usar el módulo de despliegue en `contracts/` o directamente:
+- [deploypolkadot.xyz](https://www.deploypolkadot.xyz/)
+- [onpop.io](https://onpop.io/)
+
+Una vez desplegado, copia el **contract address** en el archivo `.env`.
+
+---
+
+## 🧩 Example User Flow
+
+1. **Organizador Cultural** crea un evento desde la interfaz (nombre, fecha, descripción).  
+2. **Artista** se registra conectando su wallet (Core o MetaMask).  
+3. **Administrador** aprueba el evento y genera el contrato Soulbound.  
+4. **NFT emitido** al artista → visible en wallet y explorador (Snowtrace / Subscan).  
+5. **Panel cultural** muestra NFTs, reputación y recompensas.  
+
+---
+
+## 🧠 Dependencies and Technologies Used
+
+| Capa | Tecnología / SDK |
+|------|-------------------|
+| **Blockchain Principal** | Polkadot SDK / JAM Runtime |
+| **APIs / Herramientas** | `@polkadot/api`, Substrate Front-End Template |
+| **Interoperabilidad** | Avalanche Fuji + Core Wallet |
+| **Identidad y NFTs** | ERC-721 Soulbound + IPFS (metadatos culturales) |
+| **Recompensas** | Tether WDK (USDT simulado) |
+| **Frontend** | React + TailwindCSS |
+| **Infraestructura Web3** | DeployPolkadot.xyz / Onpop.io |
+| **Gráficos y visualización (Tinkerers)** | D3.js / Recharts |
+| **Almacenamiento** | IPFS Gateway |
+
+---
+
+## 🧱 Architecture
+
+```
+User (Artist / Organizer / Public)
+        ↓
+Frontend React (Tailwind)
+        ↓
+API Layer → Polkadot SDK / JAM Runtime
+        ↓
+Smart Contracts (Soulbound NFTs + Rewards)
+        ↓
+Avalanche Fuji (Cross-chain Proof)
+        ↓
+IPFS Storage (Metadata cultural)
 ```
 
 ---
 
-## 🧩 Flujo de Usuario (MVP Hackathon)
+## 🌟 Real-World Impact
 
-1. **Organizador crea evento** cultural.  
-2. **Artista se inscribe** con su wallet.  
-3. **Organizador aprueba inscripción**.  
-4. **NFT Soulbound** emitido al artista.  
-5. **Recompensa en USDT** entregada vía Tether WDK.  
-6. **Historial cultural visible** en el panel.
+- Democratiza la trazabilidad cultural y artística.  
+- Incentiva la colaboración descentralizada entre artistas y festivales.  
+- Ofrece métricas verificables de impacto social usando Web3.  
+- Promueve una visión ética y transparente de la cultura digital.
 
 ---
 
-## 🎥 Video Demo (en preparación)
-🎬 *Se mostrará conexión wallet, registro, inscripción y emisión NFT en Fuji Testnet.*  
-*(Link YouTube o Loom será agregado antes de la entrega final)*
+## 🎥 Optional Video Walkthrough
+
+📺 *A 3–5 minute demo video showcasing the full flow:  
+Artist → Organizer → Soulbound NFT → Reputation Dashboard.*
+
+*(YouTube link will be added before final submission.)*
 
 ---
 
-## 📈 Roadmap Post-Hackathon
+## 👥 Team
 
-| Fase | Objetivo | Estado |
-|------|-----------|--------|
-| MVP cultural (NFTs + USDT) | Funcional para demo | ✅ |
-| Panel organizador y artista | Gestión visual | ⚙️ |
-| Ticketera Web3 (NFTs transferibles) | Monetización cultural | 🔜 |
-| DAO CulturaGO | Gobernanza descentralizada | 🔜 |
-| Integraciones con festivales reales | Piloto FDVC Chile | 🔜 |
+**Marcos Vinicio Reyes Muñoz** – Product Owner / Developer  
+**CulturaGO Impact Team (Tu Partner TI)**  
+Chile 🇨🇱 · 2025
 
 ---
 
-## 👥 Equipo
+## ✅ Status
 
-- **Marcos Reyes (@viniciorm)** — Product & Blockchain Strategy  
-- **FDVC Chile** — Validación comunitaria y red de artistas  
-- **Tu Partner TI & Broders Producción** — Soporte técnico y audiovisual  
-
----
-
-## 📚 Referencias
-
-- [Avalanche Docs](https://docs.avax.network/)  
-- [Tether WDK](https://github.com/tether/avalanche-wdk)  
-- [Hardhat](https://hardhat.org/)  
-- [Ethers.js](https://docs.ethers.io/)  
-- [Solidity Docs](https://docs.soliditylang.org/)  
-
----
-
-## 🪪 Licencia
-Este proyecto está bajo licencia **MIT**.  
-© 2025 CulturaGO Impact — Proyecto de hackathon sin fines de lucro.
-
----
-
-### 🌟 “Recompensando la participación cultural con trazabilidad y valor real sobre Avalanche.”
+- [x] User stories defined (Scrum methodology – 3 sprints)  
+- [x] NFT Soulbound contract deployed (Avalanche Fuji)  
+- [x] Runtime setup via Polkadot SDK / JAM  
+- [x] Frontend wallet connection + NFT mint demo  
+- [ ] Integration with Onpop.io endpoint  
+- [ ] Final video submission
+> *“La cultura también puede ser interoperable.”*  
+> — CulturaGO · Powered by Polkadot & Avalanche
